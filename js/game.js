@@ -1,7 +1,7 @@
 'use strict'
 const personagens = [
-    'alisha',
-    'claudia',
+    'Alisha',
+    'Claudia',
     'CR7',
     'dani',
     'Davi',
