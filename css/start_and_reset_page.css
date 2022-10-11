@@ -1,0 +1,72 @@
+* {
+    font-family: 'Titan One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main#square {
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(../images/Estadio3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.img-and-h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: unset;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 90%;
+    transform: translateX(10px);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+a {
+    margin-top: 9px;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+}
+
+
+a#btn-start:hover {
+    background-color: rgb(212, 26, 26);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    align-self: flex-end;
+}
